@@ -13,7 +13,7 @@ int* shuffle(int* nums, int numsSize, int n, int* returnSize){
     return result;
 }
 
-void main(){
+int main(){
 
     int n = 4;
     int numsSize = 2 * n;
@@ -25,5 +25,7 @@ void main(){
     for (int i = 0; i < 8; i++){
         printf("%d: %d\n", i, *(result + i));
     }
+
+    return 0;
 
 }
